@@ -4,30 +4,360 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="/dist/output.css" rel="stylesheet" />
-    <link rel="stylesheet" href="/distdist/style.css" />
+    <link rel="stylesheet" href="/dist/style.css" />
+
+    <!-- font awesome -->
+    <script
+      src="https://kit.fontawesome.com/697152e3e7.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
-  <body>
+  <body class="bg-slate-700">
     <div class="container">
-        <header class="flex-center h-[100vh]">
-          <div class="flex-1">
-            <h2 class="text-5xl font-bold tracking-wider uppercase">
-              I'm am a professional
-              <span class="text-rose-400"> web developer</span>
-            </h2>
-            <p class="desc">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas
-              totam autem asperiores, impedit ratione hic alias voluptates
-              corporis eum tempore.
-            </p>
-            <div class="flex-center gap-10 mt-10">
-              <button class="btn btn-primary">Download CV</button>
-              <button class="btn btn-secondary">GitHub</button>
+      <nav class="flex-center bg-slate-600 justify-between px-5 h-16">
+        <img
+          class="w-12 border p-1 rounded-full"
+          src="/src/assets/img-icon/flutter.png"
+          alt="logo"
+        />
+        <ul class="flex-center space-x-5">
+          <li><a class="text-lg uppercase" href="#">Home</a></li>
+          <li><a class="text-lg uppercase" href="#">About</a></li>
+          <li><a class="text-lg uppercase" href="#">Contact</a></li>
+        </ul>
+        <i class="fa-solid fa-user border rounded-full p-2.5"></i>
+      </nav>
+
+      <!-- header section -->
+      <header class="flex justify-center mt-36 h-[100vh - 64px]">
+        <div class="flex-grow">
+          <h2 class="text-5xl font-bold tracking-wider uppercase">
+            I'm am a professional
+            <span class="text-rose-400"> web developer</span>
+          </h2>
+          <p class="desc">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas
+            totam autem asperiores, impedit ratione hic alias voluptates
+            corporis eum tempore.
+          </p>
+          <div class="flex-center flex-col items-start mt-10">
+            <h3 class="uppercase text-lg mb-6">find with me</h3>
+            <div class="flex-center space-x-5">
+              <i
+                class="fa-brands fa-facebook hover:bg-[#3b5997] bg-slate-600 p-4 text-center text-2xl rounded-full cursor-pointer"
+              ></i>
+              <i
+                class="fa-brands fa-twitter hover:bg-[#1ba1f2] bg-slate-600 p-4 text-center text-2xl rounded-full cursor-pointer"
+              ></i>
+              <i
+                class="fa-brands fa-linkedin hover:bg-[#0077b5] bg-slate-600 p-4 text-center text-2xl rounded-full cursor-pointer"
+              ></i>
+              <i
+                class="fa-brands fa-github hover:bg-[#7289da] bg-slate-600 p-4 text-center text-2xl rounded-full cursor-pointer"
+              ></i>
             </div>
           </div>
-          <div>
-            <img src="/src/assets/svg-bg/Coding-workshop.svg" alt="banner" />
+        </div>
+        <div>
+          <img src="/src/assets/svg-bg/Coding-workshop.svg" alt="banner" />
+        </div>
+      </header>
+      <hr />
+
+      <!-- services -->
+      <section class="my-16">
+        <div class="flex-center">
+          <h2 class="head-text">My Services</h2>
+        </div>
+        <div class="grid grid-cols-3 gap-6">
+          <!-- item -->
+          <div class="service bg-slate-600 rounded-lg p-5">
+            <img
+              class="w-full h-auto object-cover rounded-md"
+              src="/src/assets/img-portfolio/portfolio-01.jpg"
+              alt="img"
+            />
+            <div>
+              <h3 class="subtitle mt-6">Web Development</h3>
+              <p class="desc mt-3">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque,
+                optio.
+              </p>
+            </div>
           </div>
-        </header>
+          <!-- item -->
+          <div class="service bg-slate-600 rounded-lg p-5">
+            <img
+              class="w-full h-auto object-cover rounded-md"
+              src="/src/assets/img-portfolio/portfolio-01.jpg"
+              alt="img"
+            />
+            <div>
+              <h3 class="subtitle mt-6">Web Development</h3>
+              <p class="desc mt-3">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque,
+                optio.
+              </p>
+            </div>
+          </div>
+          <!-- item -->
+          <div class="service bg-slate-600 rounded-lg p-5">
+            <img
+              class="w-full h-auto object-cover rounded-md"
+              src="/src/assets/img-portfolio/portfolio-01.jpg"
+              alt="img"
+            />
+            <div>
+              <h3 class="subtitle mt-6">Web Development</h3>
+              <p class="desc mt-3">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque,
+                optio.
+              </p>
+            </div>
+          </div>
+          <!-- item -->
+          <div class="service bg-slate-600 rounded-lg p-5">
+            <img
+              class="w-full h-auto object-cover rounded-md"
+              src="/src/assets/img-portfolio/portfolio-01.jpg"
+              alt="img"
+            />
+            <div>
+              <h3 class="subtitle mt-6">Web Development</h3>
+              <p class="desc mt-3">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque,
+                optio.
+              </p>
+            </div>
+          </div>
+          <!-- item -->
+          <div class="service bg-slate-600 rounded-lg p-5">
+            <img
+              class="w-full h-auto object-cover rounded-md"
+              src="/src/assets/img-portfolio/portfolio-01.jpg"
+              alt="img"
+            />
+            <div>
+              <h3 class="subtitle mt-6">Web Development</h3>
+              <p class="desc mt-3">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque,
+                optio.
+              </p>
+            </div>
+          </div>
+          <!-- item -->
+          <div class="service bg-slate-600 rounded-lg p-5">
+            <img
+              class="w-full h-auto object-cover rounded-md"
+              src="/src/assets/img-portfolio/portfolio-01.jpg"
+              alt="img"
+            />
+            <div>
+              <h3 class="subtitle mt-6">Web Development</h3>
+              <p class="desc mt-3">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque,
+                optio.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <hr />
+      <!-- projects -->
+      <section class="my-16">
+        <div class="flex-center">
+          <h2 class="head-text">My Projects</h2>
+        </div>
+        <div class="grid grid-cols-3 gap-6">
+          <!-- item -->
+          <div class="service bg-slate-600 rounded-lg p-5">
+            <img
+              class="w-full h-auto object-cover rounded-md"
+              src="/src/assets/img-portfolio/portfolio-02.jpg"
+              alt="img"
+            />
+            <div>
+              <h3 class="subtitle mt-6">Web Development</h3>
+              <p class="desc mt-3">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque,
+                optio.
+              </p>
+            </div>
+          </div>
+          <!-- item -->
+          <div class="service bg-slate-600 rounded-lg p-5">
+            <img
+              class="w-full h-auto object-cover rounded-md"
+              src="/src/assets/img-portfolio/portfolio-03.jpg"
+              alt="img"
+            />
+            <div>
+              <h3 class="subtitle mt-6">Web Development</h3>
+              <p class="desc mt-3">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque,
+                optio.
+              </p>
+            </div>
+          </div>
+          <!-- item -->
+          <div class="service bg-slate-600 rounded-lg p-5">
+            <img
+              class="w-full h-auto object-cover rounded-md"
+              src="/src/assets/img-portfolio/portfolio-04.jpg"
+              alt="img"
+            />
+            <div>
+              <h3 class="subtitle mt-6">Web Development</h3>
+              <p class="desc mt-3">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque,
+                optio.
+              </p>
+            </div>
+          </div>
+          <!-- item -->
+          <div class="service bg-slate-600 rounded-lg p-5">
+            <img
+              class="w-full h-auto object-cover rounded-md"
+              src="/src/assets/img-portfolio/portfolio-05.jpg"
+              alt="img"
+            />
+            <div>
+              <h3 class="subtitle mt-6">Web Development</h3>
+              <p class="desc mt-3">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque,
+                optio.
+              </p>
+            </div>
+          </div>
+          <!-- item -->
+          <div class="service bg-slate-600 rounded-lg p-5">
+            <img
+              class="w-full h-auto object-cover rounded-md"
+              src="/src/assets/img-portfolio/portfolio-06.jpg"
+              alt="img"
+            />
+            <div>
+              <h3 class="subtitle mt-6">Web Development</h3>
+              <p class="desc mt-3">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque,
+                optio.
+              </p>
+            </div>
+          </div>
+          <!-- item -->
+          <div class="service bg-slate-600 rounded-lg p-5">
+            <img
+              class="w-full h-auto object-cover rounded-md"
+              src="/src/assets/img-portfolio/portfolio-01.jpg"
+              alt="img"
+            />
+            <div>
+              <h3 class="subtitle mt-6">Web Development</h3>
+              <p class="desc mt-3">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque,
+                optio.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <hr />
+
+      <!-- skills -->
+      <section class="my-16">
+        <div class="head-text">
+          <h2>My Skills</h2>
+        </div>
+        <div class="grid grid-cols-4 gap-6">
+          <!-- item -->
+          <div class="bg-slate-600 p-5 rounded-lg">
+            <div class="flex-center">
+              <img
+                class="w-36"
+                src="/src/assets/img-icon/css.png"
+                alt="image"
+              />
+            </div>
+            <div class="text-center">
+              <h3 class="subtitle">Intermediate</h3>
+            </div>
+          </div>
+          <!-- item -->
+          <div class="bg-slate-600 p-5 rounded-lg">
+            <div class="flex-center">
+              <img
+                class="w-36"
+                src="/src/assets/img-icon/css.png"
+                alt="image"
+              />
+            </div>
+            <div class="text-center">
+              <h3 class="subtitle">Intermediate</h3>
+            </div>
+          </div>
+          <!-- item -->
+          <div class="bg-slate-600 p-5 rounded-lg">
+            <div class="flex-center">
+              <img
+                class="w-36"
+                src="/src/assets/img-icon/css.png"
+                alt="image"
+              />
+            </div>
+            <div class="text-center">
+              <h3 class="subtitle">Intermediate</h3>
+            </div>
+          </div>
+          <!-- item -->
+          <div class="bg-slate-600 p-5 rounded-lg">
+            <div class="flex-center">
+              <img
+                class="w-36"
+                src="/src/assets/img-icon/css.png"
+                alt="image"
+              />
+            </div>
+            <div class="text-center">
+              <h3 class="subtitle">Intermediate</h3>
+            </div>
+          </div>
+        </div>
+      </section>
+      <hr />
+
+      <!-- contact -->
+      <section class="my-16">
+        <div class="head-text">
+          <h2>Contacts</h2>
+        </div>
+        <div class="flex-center">
+          <form class="w-[900px]">
+            <input class="inputVal" type="text " placeholder="Name" />
+            <input class="inputVal" type="text " placeholder="Email" />
+            <textarea
+              class="inputVal"
+              name=""
+              id=""
+              cols="30"
+              rows="10"
+            ></textarea>
+            <button class="btn btn-secondary btn-fw bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500" type="submit">Submit</button>
+          </form>
+        </div>
+      </section>
+      <hr />
+
+      <!-- footer -->
+      <section class="mt-10">
+        <footer class="flex-center flex-col">
+          <img
+            class="w-28 rounded-full"
+            src="/src/assets/img-icon/diamond.png"
+            alt="image"
+          />
+          <p>@all right reserved-2023</p>
+        </footer>
+      </section>
     </div>
   </body>
 </html>
