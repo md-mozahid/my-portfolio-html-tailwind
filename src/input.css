@@ -4,7 +4,7 @@
 
 @layer components {
   .container {
-    @apply bg-white max-w-7xl m-auto p-5 text-slate-700 font-normal font-sans;
+    @apply max-w-7xl m-auto p-8 bg-slate-700 text-white font-normal font-sans;
   }
   .head-title {
     @apply text-5xl text-center font-bold tracking-wider text-white;
