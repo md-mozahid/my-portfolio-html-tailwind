@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="/dist/output.css" rel="stylesheet" />
+    <link rel="stylesheet" href="/dist/style.css" />
+
+    <!-- font awesome -->
+    <script
+      src="https://kit.fontawesome.com/697152e3e7.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body class="bg-slate-700">
+    <div class="container">
+      <section class="h-[100vh]">
+        <div class="flex-center flex-col">
+          <div class="flex-center">
+            <h2 class="uppercase text-3xl py-10">Login form</h2>
+          </div>
+          <form class="border border-[#1e293b] p-5 rounded-lg">
+            <div class="flex flex-col">
+              <label for="">User Name or Email</label>
+              <input class="inputVal py-1" type="text" />
+            </div>
+            <div class="flex flex-col">
+              <label for="">Password</label>
+              <input class="inputVal py-1" type="text" />
+            </div>
+            <div class="flex-between text-sm">
+              <span>Forgot <a class="underline cursor-pointer hover:text-blue-500">password</a></span>
+              <a href="signup.html" class="cursor-pointer hover:text-blue-500">Signup</a>
+            </div>
+            <button
+              class="btn btn-primary btn-fw mt-10 text-base"
+              type="submit"
+            >
+              Login
+            </button>
+          </form>
+        </div>
+      </section>
+
+      <!-- footer -->
+      <section class="pt-10">
+        <footer class="flex-center flex-col">
+          <img
+            class="w-28 rounded-full"
+            src="/src/assets/img-icon/diamond.png"
+            alt="image"
+          />
+          <p>@all right reserved-2023</p>
+        </footer>
+      </section>
+    </div>
+  </body>
+</html>
